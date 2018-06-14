@@ -1,0 +1,73 @@
+﻿@model LojaEsportesDominio.Entidades.Produto
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Detalhes do Produto</h2>
+
+<div>
+    <h4>Produto</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        @if (Model.Imagem != null)
+        {
+            <dt>Imagem</dt>
+            <dd>
+                <img src="@Url.Action("ExibirImagem","Arquivo",new { id = Model.ProdutoId})" width="150" height="150" />
+            </dd>
+        }
+        <dt>
+            @Html.DisplayNameFor(model => model.Categoria.Nome)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Categoria.Nome)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Nome)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Nome)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Descricao)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Descricao)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Preco)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Preco)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Imagem)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Imagem)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ImagemTipo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ImagemTipo)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("EditAR", "Edit", new { id = Model.ProdutoId }) |
+    @Html.ActionLink("Retornar", "Index")
+</p>

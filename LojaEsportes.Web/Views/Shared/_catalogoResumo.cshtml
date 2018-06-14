@@ -1,0 +1,18 @@
+﻿@model LojaEsportesDominio.Entidades.Produto
+
+<div class="well">
+    <h3>
+        <strong>@Model.Nome</strong>
+        <span class="pull-right label label-primary">@Model.Preco.ToString("c")</span>
+    </h3>
+    @using (Html.BeginForm("AdicionarItemAoCarrinho", "Carrinho"))
+    {
+        <div class="pull-right">
+            @Html.HiddenFor(x=>x.ProdutoId)
+            @Html.Hidden("ReturnUrl", Request.Url.PathAndQuery)
+            <input type="submit" class="btn btn-success" value="Comprar" />
+        </div>
+    }
+    <span class="lead">@Model.Descricao</span>
+</div>
+

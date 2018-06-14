@@ -1,0 +1,9 @@
+c:\users\netosantos\documents\visual studio 2015\Projects\LojaEsportesVirtual\LojaEsportesDominio\bin\Debug\LojaEsportesDominio.dll.config
+c:\users\netosantos\documents\visual studio 2015\Projects\LojaEsportesVirtual\LojaEsportesDominio\bin\Debug\LojaEsportesDominio.dll
+c:\users\netosantos\documents\visual studio 2015\Projects\LojaEsportesVirtual\LojaEsportesDominio\bin\Debug\LojaEsportesDominio.pdb
+c:\users\netosantos\documents\visual studio 2015\Projects\LojaEsportesVirtual\LojaEsportesDominio\bin\Debug\EntityFramework.dll
+c:\users\netosantos\documents\visual studio 2015\Projects\LojaEsportesVirtual\LojaEsportesDominio\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\netosantos\documents\visual studio 2015\Projects\LojaEsportesVirtual\LojaEsportesDominio\bin\Debug\EntityFramework.xml
+c:\users\netosantos\documents\visual studio 2015\Projects\LojaEsportesVirtual\LojaEsportesDominio\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\netosantos\documents\visual studio 2015\Projects\LojaEsportesVirtual\LojaEsportesDominio\obj\Debug\LojaEsportesDominio.dll
+c:\users\netosantos\documents\visual studio 2015\Projects\LojaEsportesVirtual\LojaEsportesDominio\obj\Debug\LojaEsportesDominio.pdb
